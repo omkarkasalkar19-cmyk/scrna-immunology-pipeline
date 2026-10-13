@@ -1,0 +1,17 @@
+# Raw and processed sequencing data
+data/raw/*
+data/processed/*
+
+# Keep directory placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Analysis outputs
+results/*
+!results/.gitkeep
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
